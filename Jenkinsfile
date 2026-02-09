@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                bat '"C:\\Users\\SindhuI\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe" File1.py'
+                bat 'python File1.py'
             }
         }
     }
