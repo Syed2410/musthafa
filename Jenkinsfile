@@ -8,8 +8,9 @@ pipeline {
     } 
     stage ('Hello') {
       steps {
-        bat '"C:\\Users\\Sindhu I\\AppData\\Local\\Python\\bin\\python.exe" /c python File1.py'
+        bat '"C:\\Users\\Sindhu I\\AppData\\Local\\Python\\bin\\python.exe" python File1.py'
       }
     }
   }
 }
+
